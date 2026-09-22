@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🍔 Food Ordering System</h1>
+    <form>
+        <label>Customer Name:</label>
+        <input type="text" required>
+
+        <label>Phone:</label>
+        <input type="text" required>
+
+        <label>Address:</label>
+        <textarea required></textarea>
+
+        <h2>Choose Food</h2>
+        <select>
+            <option>Burger - ₹120</option>
+            <option>Pizza - ₹180</option>
+            <option>Fried Rice - ₹150</option>
+            <option>Noodles - ₹130</option>
+            <option>Sandwich - ₹100</option>
+            <option>French Fries - ₹80</option>
+            <option>Coke - ₹50</option>
+        </select>
+
+        <label>Quantity:</label>
+        <input type="number" min="1" value="1">
+
+        <button type="submit">Place Order</button>
+    </form>
+</body>
+</html>
